@@ -1,0 +1,24 @@
+.frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo{
+    border-color: black;
+    border-width: 0.1rem;
+    border-style: solid;
+    outline: none;
+}
+
+.todo::placeholder{
+    color: black;
+
+}
+
+.todoList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

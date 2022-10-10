@@ -1,0 +1,12 @@
+.btn{
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    border-color: tomato;
+    border-width: 0.6rem;
+    border-radius: 0.3rem;
+    border-style: dashed;
+    outline: none;
+
+}
+            
