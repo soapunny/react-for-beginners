@@ -1,6 +1,6 @@
 import React from "react";
 
-function Movie(){
+function Movies(){
     const [isLoading, setLoading] = React.useState(true);
     const [movies, setMovies] = React.useState([]);
     const [id, setId] = React.useState();
@@ -37,4 +37,4 @@ function Movie(){
     );
 }
 
-export default Movie;
+export default Movies;

@@ -5,7 +5,7 @@ import HideButtonMenu from './HideButtonMenu';
 import SearchBar from './SearchBar';
 import TodoList from "./TodoList";
 import CoinTracker from "./CoinTracker";
-import Movie from "./Movie";
+import Movies from "./Movies";
 
 const Menu = {
   DEFAULT_MENU: {index:"-1", value:"CHOOSE A MENU"},
@@ -63,7 +63,7 @@ function App() {
  : null}
       {index === Menu.TODO_LIST_MENU.index ? <TodoList /> : null} 
       {index === Menu.COIN_TRACKER_MENU.index ? <CoinTracker /> : null} 
-      {index === Menu.MOVIE_MENU.index ? <Movie /> : null} 
+      {index === Menu.MOVIE_MENU.index ? <Movies /> : null} 
     </div>
   );
 }
